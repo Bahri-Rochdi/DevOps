@@ -1,3 +1,4 @@
+
 package com.esprit.examen.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,7 @@ import com.esprit.examen.services.IFormateurService;
 
 @RestController
 public class FormateurRestController {
-
+/*
 	@Autowired
 	IFormateurService formateurService;
 	
@@ -47,4 +48,7 @@ public class FormateurRestController {
 		Long nombreFormateurs=formateurService.nombreFormateursImpliquesDansUnCours(typeCours);
 		return nombreFormateurs;
 	}
+	*/
+
 }
+

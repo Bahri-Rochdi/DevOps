@@ -28,7 +28,11 @@ public class Formateur implements Serializable{
 	private Boolean admin;
 	@OneToMany(mappedBy="formateur")
 	private Set<Session> sessions;
-	
+
+	public Formateur(Long id) {
+		this.id = id;
+	}
+
 	public Long getId() {
 		return id;
 	}
