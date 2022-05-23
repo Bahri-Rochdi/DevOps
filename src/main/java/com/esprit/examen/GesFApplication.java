@@ -17,10 +17,7 @@ public class GesFApplication {
 		SpringApplication.run(GesFApplication.class, args);
 
 		
-		FormateurService formateurService = new FormateurService() ;
-		Formateur formateur = new Formateur( 1L, "nomFormateur","prenomFormateur", Poste.Docteur, Contrat.CDI, "test@gmail.com","testFormateur" );
-        formateurService.addFormateur(formateur);
-        System.out.println("Fin Project ....");
+		
 
 	}
 	
